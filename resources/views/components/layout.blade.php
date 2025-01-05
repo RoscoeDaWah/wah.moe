@@ -37,8 +37,8 @@
         <div id="footer">
             <div>
                 <span>
-                    &copy; RoscoeDeWah 2021-{{ date('Y') }}<br>
-                    v{{ config('app.version') }}, <a href="https://git.frzn.dev/RoscoeDeWah/wah.moe/releases/latest">Source</a><br>
+                    &copy; RoscoeDaWah 2021-{{ date('Y') }}<br>
+                    v{{ config('app.version') }}, <a href="https://git.frzn.dev/RoscoeDaWah/wah.moe/releases/latest">Source</a><br>
                     Served by {{ gethostname() }}
                 </span>
             </div>

@@ -23,7 +23,7 @@
                 href="https://www.controlbooth.com/members/floppydisk.28673/">ControlBooth</a>)</li>
         <li><strong>Programming</strong> - HTML, CSS, JavaScript, C#, Java, PHP, Ruby, Python (<a
                 href="https://github.com/RoscoeDaWah">GitHub</a>)</li>
-        <li><strong>Photography</strong> - <a href="https://www.flickr.com/photos/floppydisk/">Flickr</a></li>
+        <li><strong>Photography</strong> - <a href="https://www.flickr.com/photos/roscoedawah/">Flickr</a></li>
         <li><strong>Gaming</strong> - <a href="https://steamcommunity.com/id/RoscoeDaWah/">Steam Profile</a>
         </li>
     </ul>

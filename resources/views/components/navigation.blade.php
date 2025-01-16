@@ -7,5 +7,5 @@
     <a href="/bookmarks">bookmarks</a> |
     <a href="/guestbook">guestbook</a> |
     <a href="/music">music</a> |
-    <a href="/rosco">rosco</a>
+    <a href="/rosco-leko">rosco &amp; leko</a>
 </nav>

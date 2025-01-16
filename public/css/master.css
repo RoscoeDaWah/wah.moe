@@ -98,7 +98,7 @@ div#header {
     grid-template-columns: 66px 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 15px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0;
     align-items: center;
 }
 
@@ -132,8 +132,8 @@ div#footer {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     align-items: center;
 }
 
@@ -274,14 +274,14 @@ div.bookmark-category:first-child h2 {
 }
 
 
-/** Rosco **/
-div.rosco-gallery {
+/** Rosco & Leko **/
+div.rosco-leko-gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
-div.rosco {
+div.rosco-leko-gallery > div {
     border: var(--border);
     padding: 5px;
     filter: var(--shadow-small);
@@ -290,7 +290,7 @@ div.rosco {
     height: auto;
 }
 
-div.rosco,
-div.rosco img {
+div.rosco-leko-gallery > div,
+div.rosco-leko-gallery > div img {
     max-width: 220px;
 }

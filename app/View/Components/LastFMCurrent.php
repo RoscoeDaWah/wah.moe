@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class CurrentTrack extends Component
+class LastFMCurrent extends Component
 {
     public $track;
     /**
@@ -22,6 +22,6 @@ class CurrentTrack extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.current-track');
+        return view('components.lasfm-current');
     }
 }

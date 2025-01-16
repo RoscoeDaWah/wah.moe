@@ -11,6 +11,6 @@
     @php($count = 0)
     @foreach ($tracks as $track)
         @php($count++)
-        <x-track :track="$track" :count="$count"/>
+        <x-lastfm-track :track="$track" :count="$count"/>
     @endforeach
 </table>

@@ -1,4 +1,4 @@
-<x-minimal>
+<x-layout-min>
     <x-slot:title>Error 403: IP Blocked!</x-slot:title>
     <h1>Error 403: IP Blocked!</h1>
     <hr>
@@ -8,4 +8,4 @@
     @endif
     <br>
     Click <a href="/guestbook">here</a> to go back to the guestbook.
-</x-minimal>
+</x-layout-min>

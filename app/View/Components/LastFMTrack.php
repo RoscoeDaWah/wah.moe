@@ -6,15 +6,17 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class TopTracks extends Component
+class LastFMTrack extends Component
 {
-    public $tracks;
+    public $track;
+    public $count;
     /**
      * Create a new component instance.
      */
-    public function __construct($tracks)
+    public function __construct($track, $count)
     {
-        $this->tracks = $tracks;
+        $this->track = $track;
+        $this->count = $count;
     }
 
     /**
@@ -22,6 +24,6 @@ class TopTracks extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.top-tracks');
+        return view('components.lastfm-track');
     }
 }

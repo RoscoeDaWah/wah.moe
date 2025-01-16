@@ -1,4 +1,4 @@
-<x-minimal>
+<x-layout-min>
     <x-slot:title>Error 429: Overclocking Detected!</x-slot:title>
     <div class="page-container">
         <div>
@@ -10,4 +10,4 @@
             Click <a href="/guestbook">here</a> to go back to the guestbook.
         </div>
     </div>
-</x-minimal>
+</x-layout-min>

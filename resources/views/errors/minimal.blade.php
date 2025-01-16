@@ -1,3 +1,0 @@
-<x-minimal>
-
-</x-minimal>

@@ -6,22 +6,19 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class LastFMCurrent extends Component
-{
+class LastFMCurrent extends Component {
     public $track;
     /**
      * Create a new component instance.
      */
-    public function __construct($track)
-    {
+    public function __construct($track) {
         $this->track = $track;
     }
 
     /**
      * Get the view / contents that represent the component.
      */
-    public function render(): View|Closure|string
-    {
-        return view('components.lasfm-current');
+    public function render(): View|Closure|string {
+        return view('components.lastfm-current');
     }
 }

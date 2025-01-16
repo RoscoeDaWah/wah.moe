@@ -1,20 +1,6 @@
-:root {
-  --background: #f2efbd;
-  --background-dim: hsl(57, 85%, 85%);
-  --foreground: #2a271c;
-  --border-color: #f27405;
-  --border: var(--border-color) 2px solid;
-  --shadow-color: hsla(11, 96%, 43%, 0.4);
-  --shadow: drop-shadow(8px 8px var(--shadow-color));
-  --shadow-small: drop-shadow(3px 3px var(--shadow-color));
-  --links: hsl(183, 93%, 27%);
-  --links-hover: hsl(183, 93%, 15%);
-  --table-header: hsla(11, 96%, 43%, 0.2);
-}
-
 body {
-  background-color: var(--background);
-  color: var(--foreground);
+  background-color: #f2efbd;
+  color: #2a271c;
   margin: 20px;
 }
 
@@ -23,12 +9,12 @@ img {
 }
 
 a {
-  color: var(--links);
+  color: hsl(183, 93%, 27%);
   text-decoration: underline dotted;
 }
 
 a:hover {
-  color: var(--links-hover);
+  color: hsl(183, 93%, 15%);
   text-decoration: underline solid;
 }
 

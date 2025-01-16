@@ -23,7 +23,6 @@ class MusicController extends Controller
             'api_key' => Config::get('services.lastfm.key')
         ])->get('https://ws.audioscrobbler.com/2.0/');
         $data = $response->json();
-        error_log($response->body());
         $track_data = $data["recenttracks"]["track"][0];
         // $image = array_column($track_data["image"], null, 'size')['large'] ?? false;
         $image = $track_data["image"][(array_key_last($track_data["image"]))] ?? false;

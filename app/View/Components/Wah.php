@@ -9,8 +9,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
 use Illuminate\View\Component;
 
-class Wah extends Component
-{
+class Wah extends Component {
     /**
      * Create a new component instance.
      */

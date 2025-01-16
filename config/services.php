@@ -17,9 +17,5 @@ return [
     'lastfm' => [
         'key' => env('LASTFM_KEY'),
         'user' => env('LASTFM_USER'),
-    ],
-    'lanyard' => [
-        'user_id' => env('DISCORD_USER_ID'),
-    ],
-    'weatherlink' => env('WEATHERLINK_IP')
+    ]
 ];

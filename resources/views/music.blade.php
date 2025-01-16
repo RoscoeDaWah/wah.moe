@@ -1,5 +1,5 @@
 <x-layout>
     <x-slot:title>Music</x-slot:title>
-    <x-current-track :track="$current_track"/>
-    <x-top-tracks :tracks="$top_tracks"/>
+    <x-lastfm-current :track="$current_track"/>
+    <x-lastfm-top :tracks="$top_tracks"/>
 </x-layout>

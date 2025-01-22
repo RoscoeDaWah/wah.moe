@@ -25,8 +25,6 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-    ])->replace([
-        \Illuminate\Queue\QueueServiceProvider::class => \Gecche\Multidomain\Queue\QueueServiceProvider::class,
     ])->toArray(),
     'aliases' => Facade::defaultAliases()->merge([
     ])->toArray(),

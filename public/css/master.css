@@ -11,6 +11,66 @@
     --table-header: hsla(11, 96%, 43%, 0.2);
 }
 
+/* ───────────────────────────────────── Fonts ────────────────────────────────────── */
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/PTSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/PTSans-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/PTSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/PTSans-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("/fonts/PTSerif-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("/fonts/PTSerif-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("/fonts/PTSerif-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url("/fonts/PTSerif-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* ───────────────────────────────────── Global ───────────────────────────────────── */
 html {
     height: 100%;
     color-scheme: light;
@@ -22,10 +82,9 @@ body {
     min-height: 100%;
     background-color: hsla(0, 0%, 0%, 0);
     padding: 10px;
-    font-family: serif;
+    font-family: "PT Serif";
 }
 
-/*noinspection CssUnknownTarget*/
 body::before {
     content: "";
     position: fixed;
@@ -85,8 +144,6 @@ div.page-container > div {
     padding: 10px;
     border: var(--border);
     margin-bottom: 20px;
-    /* temporary */
-    /* height: 600px; */
 }
 
 div.page-container > div:last-child {
@@ -274,7 +331,8 @@ div.bookmark-category:first-child h2 {
 }
 
 
-/** Rosco & Leko **/
+
+/* ────────────────────────────────── Rosco & Leko ────────────────────────────────── */
 div.rosco-leko-gallery {
     display: flex;
     flex-wrap: wrap;

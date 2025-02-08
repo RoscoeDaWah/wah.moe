@@ -22,7 +22,7 @@ Route::get('/', [HomeController::class, 'show']);
 Route::get('/bookmarks', [BookmarksController::class, 'show']);
 Route::get('/guestbook', [GuestbookController::class, 'show']);
 Route::get('/music', [MusicController::class, 'show']);
-Route::get('/rosco-leko', [RoscoLekoController::class, 'show']);
+Route::get('/pandamonium', [RoscoLekoController::class, 'show']);
 Route::post('/guestbook', [GuestbookController::class, 'addEntry'])
     ->middleware('validator')
     ->middleware('rate_limit');

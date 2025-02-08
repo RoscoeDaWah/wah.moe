@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-    'name' => env('APP_NAME', 'diskfloppy.me'),
-    'version' => '2025.01.22',
+    'name' => env('APP_NAME', 'wah.moe'),
+    'version' => '2025.02.08',
     'env' => env('APP_ENV', 'production'),
     'debug' => (bool) env('APP_DEBUG', false),
     'url' => env('APP_URL', 'http://localhost'),

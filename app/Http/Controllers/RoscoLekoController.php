@@ -8,7 +8,7 @@ use Illuminate\View\View;
 class RoscoLekoController extends Controller {
     public function getImages(): array {
         $images = [];
-        foreach (File::glob(public_path('images/rosco-leko').'/*') as $path) {
+        foreach (File::glob(public_path('images/pandamonium').'/*') as $path) {
             $image_data = [];
             try {
                 $exif = exif_read_data($path);
@@ -41,7 +41,7 @@ class RoscoLekoController extends Controller {
      * @return View
      */
     public function show(): View {
-        return view('rosco-leko', [
+        return view('pandamonium', [
             'images' => $this->getImages(),
         ]);
     }

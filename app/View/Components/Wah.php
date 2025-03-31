@@ -18,7 +18,8 @@ class Wah extends Component {
 
     public function getWah(): string {
         try {
-            $response = Http::get('https://api.tinyfox.dev/img.json?animal=wah');
+//            $response = Http::get('https://api.tinyfox.dev/img.json?animal=wah');
+            $response = Http::get('https://api.tinyfox.dev/img.json?animal=fox');
             $data = $response->json();
             if ($data == null) return "";
             return "https://api.tinyfox.dev" . $data["loc"];

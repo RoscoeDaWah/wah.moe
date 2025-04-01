@@ -1,33 +1,15 @@
-/*:root {*/
-/*    --background: #f2efbd;*/
-/*    --foreground: #2a271c;*/
-/*    --border-color: #f27405;*/
-/*    --border: var(--border-color) 2px solid;*/
-/*    --shadow-color: hsla(11, 96%, 43%, 0.4);*/
-/*    --shadow: drop-shadow(8px 8px var(--shadow-color));*/
-/*    --shadow-small: drop-shadow(3px 3px var(--shadow-color));*/
-/*    --links: hsl(183, 93%, 27%);*/
-/*    --links-hover: hsl(183, 93%, 15%);*/
-/*    --table-header: hsla(11, 96%, 43%, 0.2);*/
-/*}*/
-
 :root {
-    --background: #f2c7bd;
-    --foreground: #2a1c1c;
-    --border-color: #f24c05;
+    --background: #f2efbd;
+    --foreground: #2a271c;
+    --border-color: #f27405;
     --border: var(--border-color) 2px solid;
-    --shadow-color: hsla(0, 96%, 43%, 0.4);
+    --shadow-color: hsla(11, 96%, 43%, 0.4);
     --shadow: drop-shadow(8px 8px var(--shadow-color));
     --shadow-small: drop-shadow(3px 3px var(--shadow-color));
     --links: hsl(183, 93%, 27%);
     --links-hover: hsl(183, 93%, 15%);
     --table-header: hsla(11, 96%, 43%, 0.2);
 }
-
-table, div, p, h1, h2, h3 {
-    transform: rotate(1deg);
-}
-
 
 /* ───────────────────────────────────── Fonts ────────────────────────────────────── */
 @font-face {

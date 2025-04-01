@@ -6,7 +6,7 @@
     <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#f27405">
-    <title>fops! (dot moe)</title>
+    <title>wah! (dot moe)</title>
     <link rel="stylesheet" href="{{ asset('/css/master.css') }}"/>
     <link rel="icon" type="image/png" href="{{ asset('/favicon-32x32.png') }}" sizes="32x32"/>
     <link rel="icon" type="image/png" href="{{ asset('/favicon-16x16.png') }}" sizes="16x16"/>
@@ -14,7 +14,7 @@
 
 
     <!-- Page-specific -->
-    <meta property="og:title" content="fops! (dot moe) - {{ $title }}">
+    <meta property="og:title" content="wah! (dot moe) - {{ $title }}">
     <meta property="og:image" content="/favicon-128x128.png">
 </head>
 <body>
@@ -24,7 +24,7 @@
                 <img src="{{ asset('/images/logo.png') }}" width="65">
             </div>
             <div>
-                <h1>fops!</h1>
+                <h1>wah!</h1>
                 <p>
                     (dot moe)
                 </p>
@@ -37,7 +37,7 @@
         <div id="footer">
             <div>
                 <span>
-                    &copy; RoscoeDaFops 2021-{{ date('Y') }}<br>
+                    &copy; RoscoeDaWah 2021-{{ date('Y') }}<br>
                     v{{ config('app.version') }}, <a href="https://git.frzn.dev/RoscoeDaWah/wah.moe/releases/latest">Source</a><br>
                     Served by {{ gethostname() }}
                 </span>

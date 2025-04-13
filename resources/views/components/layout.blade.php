@@ -21,7 +21,7 @@
     <div class="page-container">
         <div id="header">
             <div>
-                <img src="{{ asset('/images/logo.png') }}" width="65">
+                <img src="{{ asset('/images/logo.png') }}" width="65" alt="A pixel art depiction of a paw, in three alternating shades of orange.">
             </div>
             <div>
                 <h1>wah!</h1>

@@ -38,8 +38,9 @@
                 {{ $slot }}
             </main>
         </div>
-        <div id="footer">
-            <footer>
+        <div>
+        <footer>
+            <div id="footer">
                 <div>
                     <span>
                         &copy; RoscoeDaWah 2021-{{ date('Y') }}<br>
@@ -61,7 +62,8 @@
                     <a href="https://www.vim.org/"><img src="{{ URL::asset('images/buttons/vim.gif') }}" alt="Vim"></a>
                     <img src="{{ URL::asset('images/buttons/aliasing.png') }}" alt="I Heart Aliasing">
                 </div>
-            </footer>
+            </div>
+        </footer>
         </div>
     </div>
 </body>
